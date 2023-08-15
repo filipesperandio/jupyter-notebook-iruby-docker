@@ -1,4 +1,4 @@
-# Jyputer Notebook with Ruby support
+# Jupyter Notebook with Ruby support
 
 Refer to [iruby](https://github.com/SciRuby/iruby) for how it works in conjunction with Jupyter
 
@@ -23,4 +23,5 @@ docker-compose build
 docker-compose up -d
 ```
 
-[Open Jupyter Lab](http://localhost:8888)
+- [Open Jupyter Lab](http://localhost:8888)
+- [Ruby Example](http://localhost:8888/notebooks/notebooks/RubyExample.ipynb)
