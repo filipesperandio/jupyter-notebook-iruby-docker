@@ -1,0 +1,23 @@
+version: "2.3"
+
+services:
+  jupyter:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: jupyter-notebook-iruby
+    command: jupyter notebook --allow-root --ip 0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''
+    environment:
+      DEV: "true"
+      DATABASE_URL: "postgresql://postgres@postgres/development?schema_search_path=models"
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - 8888:8888
+    networks:
+      - some_network
+
+networks:
+  some_network:
+    external: true
+
