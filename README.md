@@ -1,16 +1,16 @@
 # Jyputer Notebook with Ruby support
 
-Refer to https://github.com/SciRuby/iruby for how it works in conjunction with Jupyter
+Refer to [iruby](https://github.com/SciRuby/iruby) for how it works in conjunction with Jupyter
 
 This repo aims to provide a way to enable Ruby and Jupyer Notebook using docker, so the dependencies to make it work are clear.
-
 It also setup ActiveRecord + Postgres.
 
 
 ## AWS + SageMaker
 
 The reason we use `amazonlinux:2` is because it is the same base image from AWS SageMaker Notebook instances.
-The steps in the `Dockerfile` can be translated to shell commands and executed in a SageMaker Notebook instance to enable ruby support there.
+To add Ruby support to a SageMaker Notebook instance you can simply execute the `./install_ruby_dependencies.sh` script in a Notebook instance terminal.
+It also depends on `install_postgres.sh` to fully setup what we intend to do here, so be advised.
 
 
 ## Local setup
