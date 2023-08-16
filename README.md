@@ -25,3 +25,19 @@ docker-compose up -d
 
 - [Open Jupyter Lab](http://localhost:8888)
 - [Ruby Example](http://localhost:8888/notebooks/notebooks/RubyExample.ipynb)
+
+
+## References
+
+- https://www.devdungeon.com/content/ruby-activerecord-without-rails-tutorial
+- https://youtu.be/nO8vY1iNlgQ
+- https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-add-external.html
+- https://github.com/aws-samples/aws-sagemaker-custom-jupyter-kernel
+- https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-al2.html
+- https://docs.aws.amazon.com/sagemaker/latest/dg/pre-built-containers-frameworks-deep-learning.html
+- https://aws.amazon.com/blogs/machine-learning/migrate-your-work-to-amazon-sagemaker-notebook-instance-with-amazon-linux-2/
+- https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebook-instance-now-supports-amazon-linux-2/
+- https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-jl.html
+- https://github.com/urllib3/urllib3/issues/2168
+- https://docs.aws.amazon.com/pt_br/sagemaker/latest/dg/docker-containers-prebuilt.html
+- https://docs.aws.amazon.com/pt_br/sagemaker/latest/dg/prebuilt-containers-extend.html
