@@ -29,6 +29,7 @@ docker-compose up -d
 
 ## References
 
+- https://nithinbekal.com/posts/ruby-jupyter-notebooks/
 - https://www.devdungeon.com/content/ruby-activerecord-without-rails-tutorial
 - https://youtu.be/nO8vY1iNlgQ
 - https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-add-external.html
